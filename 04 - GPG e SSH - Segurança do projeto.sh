@@ -25,6 +25,11 @@ gpg --armor --export {id}
 git config --global user.signinkey <GPG_KEY_ID>
 git config --global commit.gpgsign true
 
+#Criar a chave SSH e adicionala no GITHUB em settings
+#Colocar o texto do arquivo .PUB dentro do settings
+
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_custom
 
 
-
+#Configurar o link do SSH
+git remote set-url origin git@github.com:Alladio/GPGteste.git
