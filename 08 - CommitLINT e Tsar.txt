@@ -1,0 +1,2 @@
+Usar os dois para um padrão de projeto mais profissional a fim de Usar:
+CI
