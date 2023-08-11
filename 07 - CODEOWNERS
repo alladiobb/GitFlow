@@ -1,0 +1,10 @@
+Criar um arquivo na pasta ".github" se ela não existir
+
+E seguir o exemplo do arquivo abaixo:
+#https://github.com/Alladio/GPGteste/tree/develop/.github
+
+*.js @alladio
+*.html @alladio
+
+Para cada extensão colocar quem será o revisor na frente
+Revisor será setado automaticamente dentro do processo do GITHUB quando subir o código

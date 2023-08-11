@@ -15,4 +15,4 @@ git checkout develop
 #ver se foi feita a alteração
 git pull origin develop
 #Excluir a Branch
-git checkout -D feature/contact
+git branch -d feature/contact
