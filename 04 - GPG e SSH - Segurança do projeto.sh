@@ -30,6 +30,14 @@ git config --global commit.gpgsign true
 
 ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_custom
 
-
 #Configurar o link do SSH
 git remote set-url origin git@github.com:Alladio/GPGteste.git
+
+#Testing Connection:
+ssh -T git@github.com
+#Case fail
+
+git-add 
+#Check if your SSH key is present in the default SSH key location
+#(~/.ssh/id_rsa for the private key and ~/.ssh/id_rsa.pub for the
+#public key). If not, generate a new key pair using ssh-keygen.
