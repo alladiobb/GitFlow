@@ -35,13 +35,19 @@ ssh-add ~/.ssh/ssh****.pub
 #Caso ssh não esteja ativo
 eval "$(ssh-agent -s)"
 
+#Testing Connection:
+ssh -T git@github.com
+
+
+
+
+
 #Configurar o link do SSH
 git remote set-url origin git@github.com:Alladio/GPGteste.git
 
-#Testing Connection:
-ssh -T git@github.com
-#Case fail
 
+
+#Case fail
 git-add 
 #Check if your SSH key is present in the default SSH key location
 #(~/.ssh/id_rsa for the private key and ~/.ssh/id_rsa.pub for the
