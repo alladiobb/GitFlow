@@ -30,6 +30,11 @@ git config --global commit.gpgsign true
 
 ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_custom
 
+#adicionar a chave
+ssh-add ~/.ssh/ssh****.pub
+#Caso ssh não esteja ativo
+eval "$(ssh-agent -s)"
+
 #Configurar o link do SSH
 git remote set-url origin git@github.com:Alladio/GPGteste.git
 
