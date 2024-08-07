@@ -1,3 +1,6 @@
+#Listar as branchs
+git branch
+
 #criar um Branch 
 git checkout -b feature/contact
 nano contact.html
